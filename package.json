@@ -5,8 +5,12 @@
   "repository": "git@github.com:apple-yagi/hello-world-javascript-action.git",
   "author": "apple-yagi <applesryu@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt"
+  },
   "dependencies": {
     "@actions/core": "^1.7.0",
-    "@actions/github": "^5.0.1"
+    "@actions/github": "^5.0.1",
+    "@vercel/ncc": "^0.33.4"
   }
 }
