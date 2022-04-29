@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-javascript-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:apple-yagi/hello-world-javascript-action.git",
+  "author": "apple-yagi <applesryu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.7.0",
+    "@actions/github": "^5.0.1"
+  }
+}
